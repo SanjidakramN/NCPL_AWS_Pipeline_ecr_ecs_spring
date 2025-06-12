@@ -4,7 +4,7 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "arn:aws:ecs:us-east-1:715841367723:task-definition/project6-task:1"
+        TaskDefinition: "arn:aws:ecs:us-east-1:448049821673:task-definition/springTask:1"
         LoadBalancerInfo:
-          ContainerName: "sprinrajco"
+          ContainerName: "newone"
           ContainerPort: 8080
